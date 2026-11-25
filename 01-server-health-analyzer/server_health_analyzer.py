@@ -10,6 +10,11 @@ def server_health(servers_list):
     running_servers = 0
     stopped = 0
     stopped_servers = []
+    
+    if not servers_list:
+        print('No instances found.')
+        return
+    
     for server in servers_list:
         total_servers += 1
         if server["status"] == "running":
