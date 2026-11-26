@@ -9,34 +9,44 @@ The goal is to strengthen my Python fundamentals through hands-on exercises and 
 File: server_health_analyzer.py
 
 ##### Description:
-A Python script that processes a predefined list of servers and generates a summary of their operational statuses.
+Analyzes server operational statuses, identifies stopped servers and calculate overall server availability.
 
 ###### Features:
-1. Calcualtes the total number of servers.
-2. Identifies and counts running servers.
-3. Identifies and counts stopped servers.
-4. Displays the names of stopped servers.
-5. Calculates the percentage of running servers.
+1. Counts total, running and stopped servers.
+2. Displays names of stopped servers.
+3. Calculates server availability perccentage
 
 ###### Python concepts practised:
-1. Functions and parameters
-2. Lists and dictionaries
-3. For Loops
-4. Conditional statements
-5. Counters
-6. List maipulation
-7. F-string formatting
+Functions, lists, dictionaries, loops, conditionals, counters and f-strings.
 
 ###### Sample Output:
 Total number of servers are: 7
+
 Number of running servers are: 4
+
 Number of stopped servers are: 3
 
 The stopped servers are:
+
 web-02
+
 db-02
+
 app-02
+
 Percentage of running server: 57.14%
 
-###### Limitations:
-The current implementation works with a predefined list of servers whost status are either 'running' or 'stopped'. It does not perform live infrastructure monitoring or handle empty server lists.
+#### Exercise 02 - Infrastructure Resource Usage Analyzer
+
+File - resource_usage_analyzer.py
+
+##### Description: Analyzes CPU and memory usage across multiple instances, calculates average utilization and identifies exceeding 80% usage thresholds.
+
+###### Features:
+1. Calculates total instances and average CPU/Memory usage.
+2. Identifies instances with high CPU, memory, or both.
+3. Handles empty datasets gracefully.
+4. Generates a formatted resource utilization report.
+
+##### Concepts Practised:
+Functions, dictionaries, lists, loops, conditionals, f-strings, dictionary.items() and gaurd clauses.
