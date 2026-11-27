@@ -1,0 +1,12 @@
+2026-11-26 09:00:01 | INFO | web-01 | Service started
+2026-11-26 09:01:12 | WARNING | app-01 | High memory usage detected
+2026-11-26 09:02:30 | ERROR | db-01 | Database connection failed
+2026-11-26 09:03:15 | INFO | web-02 | Request processed
+2026-11-26 09:04:22 | ERROR | db-01 | Connection timeout
+2026-11-26 09:05:18 | WARNING | web-01 | High CPU utilization
+INVALID LOG ENTRY
+2026-11-26 09:06:45 | ERROR | app-01 | Application crashed
+2026-11-26 09:07:51 | INFO | cache-01 | Cache refreshed
+2026-11-26 09:08:32 | ERROR | db-01 | Database unavailable
+2026-11-26 09:09:14 | INFO | db-02 | Backup completed
+2026-11-26 09:10:09 | WARNING | app-02 | Memory threshold exceeded
